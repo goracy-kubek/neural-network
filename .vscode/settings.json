@@ -1,5 +1,0 @@
-{
-  "go.coverOnSave": true,
-  "go.coverageOptions": "showUncoveredCodeOnly",
-  "go.coverShowCounts": true
-}
