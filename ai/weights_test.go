@@ -30,9 +30,9 @@ func TestNewWeights(t *testing.T) {
 	w := NewWeights(data)
 	limit := math.Sqrt(6.0 / 7.0)
 
-	assert.Len(t, w.weights, 12)
+	assert.Len(t, w.data, 12)
 	assert.Len(t, w.biases, 3)
-	for _, v := range w.weights {
+	for _, v := range w.data {
 		assert.LessOrEqual(t, math.Abs(v), limit)
 	}
 }
